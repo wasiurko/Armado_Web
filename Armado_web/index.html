@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Iniciar sesión</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">   
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+  <main class="contenedor">
+    <section class="banner">
+      <div class="marca">
+        <h1>AdminExpress</h1>
+      </div>
+    </section>
+
+    <section class="panel-login">
+      <form class="formulario" novalidate>  <!--comprueba los correos, ayuda a que se vea bien, muestra un mensaje de error si no es valido-->
+        <h2>Hola de nuevo <span aria-hidden="true">👇</span></h2> <!--muestra el emoji pero el aria-hideden lo hace un elemento decorativo-->
+        <p class="subtitulo">Ingresa tus datos para acceder a tu cuenta.</p>
+
+        <label for="correo">Correo electrónico</label>
+        <input id="correo" name="correo" type="email" placeholder="nombre@correo.com"
+               autocomplete="email" required> <!--el required hace que el campo sea obligatorio -->
+
+        <label for="contrasena">Contraseña</label>
+        <input id="contrasena" name="contrasena" type="password" placeholder="Ingresa tu contraseña"
+               autocomplete="current-password" required> <!--suquiere contraseñas guardadad -->
+
+        <a class="recuperar" href="#">¿Olvidaste tu contraseña?</a>
+        <button class="boton" type="submit">Iniciar sesión</button>
+
+        <p class="registro">¿No tienes una cuenta? <a href="#">Regístrate</a></p>
+      </form>
+    </section>
+  </main>
+</body>
+</html>
