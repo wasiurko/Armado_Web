@@ -1,9 +1,5 @@
 # Armado_Web
 
-Proyecto académico de una página de inicio de sesión inspirada en una actividad de clase. El objetivo principal es replicar el diseño visual de un formulario de login utilizando HTML y CSS, aplicando conceptos básicos de maquetación, responsividad y estilos modernos.
-
-## Descripción
-
 Este proyecto consiste en una interfaz de login con una estructura visual clara y elegante. La página presenta un formulario con campos para correo electrónico y contraseña, además de un banner lateral en pantallas grandes. El diseño está pensado para verse ordenado y profesional, manteniendo una apariencia moderna y funcional.
 
 ## Objetivo
@@ -29,7 +25,7 @@ Armado_web/
 
 - HTML5
 - CSS3
-- Google Fonts
+- Google Fonts (para los fondos extra del estudiante)
 
 ## Funcionalidades actuales
 
